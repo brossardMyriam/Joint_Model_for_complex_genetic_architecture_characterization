@@ -4,6 +4,8 @@
 ##@@ K=2 time-to-event traits (retinopathy, nephropathy)
 ##@@ L=3 longitudinal risk factors: 2 observed (HbA1c, SBP) & one simulated (U)
 
+# test2 
+
 set.seed(13857)
 dir_wk=c("C:/Users/bross/Documents/GitHub/Joint_Model_for_compleU_genetic_architecture_characterization")
 setwd(dir_wk)
@@ -32,6 +34,7 @@ gamma_snp5<-7
 alpha_l1k1<-alpha_l1k2<-alpha_l2k2<-0.2
 alpha_Uk1<-alpha_Uk2<-0.4
 
+# test 3
 
 #############################################################
 ### Part 1 : Generation of the genotypes for M=5 SNPs & simulated shared longitudinal risk factors
